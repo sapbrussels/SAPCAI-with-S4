@@ -1,0 +1,7 @@
+---
+applications:
+- name: s4api-sapcai
+  buildpack: nodejs_buildpack
+  command: npm start
+  memory: 256M
+  disk_quota: 512M
